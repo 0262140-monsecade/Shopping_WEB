@@ -1,12 +1,12 @@
 import Navbar from "./components/Navbar"
-import Catalogo from "./components/Catalogo"
+import CatCar from "./components/CatCar"
+
 function App() {
  
-
   return (
     <>
       <Navbar></Navbar>
-      <Catalogo></Catalogo>
+      <CatCar></CatCar>
     </>
   )
 }
