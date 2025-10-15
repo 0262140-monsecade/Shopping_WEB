@@ -95,7 +95,7 @@ export default function CatCar() {
 
     return (
         <div>
-            <AgregarItem></AgregarItem>
+            <AgregarItem setProducts={setProducts} products={products}></AgregarItem>
             <Catalogo products={products} onClick={agregar}></Catalogo>
             <Carrito products={productsCarr} onClick={eliminar}></Carrito>
         </div>
